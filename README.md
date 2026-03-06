@@ -20,7 +20,7 @@ A megoldásnál az alábbi technológiák használata elvárt:
 - REST alapú JSON API
 - relációs adatbázis (MySQL / PostgreSQL / SQLite)
 
-Frontend nem szükséges.
+Front-end nem szükséges. Az API-hoz rövid dokumentáció is szükséges, amely bemutatja az elérhető endpointokat és azok használatát.
 
 ---
 

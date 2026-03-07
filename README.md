@@ -44,8 +44,15 @@ A motor entitásnak minimum az alábbi adatokat kell tartalmaznia:
 - napi bérleti díj
 - elérhetőségi állapot
 
-A motorokhoz alapvető CRUD műveletek szükségesek egy REST API-n keresztül.
+A motorok kezeléséhez alapvető CRUD műveletek szükségesek egy REST API-n keresztül.
 
+```http
+GET    /api/motorcycles
+GET    /api/motorcycles/{id}
+POST   /api/motorcycles
+PUT    /api/motorcycles/{id}
+DELETE /api/motorcycles/{id}
+```
 ---
 
 ## Foglalás
@@ -104,6 +111,7 @@ Külön figyelmet fordítunk arra, hogy:
 - mennyire olvasható és követhető a kód
 
 Nem szükséges túlbonyolított architektúra, de a logika ne kerüljön indokolatlanul kontrollerekbe.
+Extra pont jár minden olyan architekturális döntésért, amely a rendszer későbbi bővíthetőségét vagy skálázhatóságát segíti.
 
 ---
 
